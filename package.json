@@ -1,0 +1,23 @@
+{
+  "name": "xxx",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "vite serve",
+    "rb": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.32.1",
+    "vite": "^2.0.0-beta.7"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.11"
+  },
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
